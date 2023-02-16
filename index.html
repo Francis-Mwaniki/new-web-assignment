@@ -10,7 +10,7 @@
 <body>
     <section class="main">
         <div class="img-container">
-            <img src="https://cdn.pixabay.com/photo/2016/12/26/18/33/logo-1932539__340.png" style="height: 50px; width: 50px; border-radius: 999px;" alt="">
+            <img class="img" src="https://cdn.pixabay.com/photo/2016/12/26/18/33/logo-1932539__340.png" style="height: 50px; width: 50px; border-radius: 999px;" alt="">
         </div>
         <div class="sub-main">
             <h4>Home</h4>
@@ -20,30 +20,76 @@
         </div>
     </section>
     
-   <!--  <div class="slider">
+    <div class="slider">
         <div class="slider-container">
-          <div class="slider-item">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-             quis est fugit recusandae commodi assumenda numquam exerci
-             tationem laborum dolore, itaque obcaecati in rem enim officiis.
-          </div>
-          <div class="slider-item">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            quis est fugit recusandae commodi assumenda numquam exerci
-            tationem laborum dolore, itaque obcaecati in rem enim officiis.
-          </div>
-          <div class="slider-item">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            quis est fugit recusandae commodi assumenda numquam exerci
-            tationem laborum dolore, itaque obcaecati in rem enim officiis.
-          </div>
+           
+                <div class="slider-item">
+                  <img src="https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_960_720.jpg" alt="Road">
+                  <h3>Road</h3>
+                  <p>Photo by John Doe</p>
+                </div>
+                <div class="slider-item">
+                  <img src="https://cdn.pixabay.com/photo/2019/01/23/21/16/pixabay-3951079__340.png" alt="Vintage">
+                  <h3>Vintage</h3>
+                  <p>Photo by Jane Smith</p>
+                </div>
+                <div class="slider-item">
+                  <img src="https://cdn.pixabay.com/photo/2013/10/25/17/26/tree-200795__340.jpg" alt="Concert">
+                  <h3>Concert</h3>
+                  <p>Photo by Bob Johnson</p>
+                </div>
+                <div class="slider-item">
+                  <img src="https://cdn.pixabay.com/photo/2016/01/26/17/15/gmail-1162901__340.png" alt="Landscape">
+                  <h3>Landscape</h3>
+                  <p>Photo by Mary Williams</p>
+                </div>
+                <div class="slider-item">
+                  <img src="https://cdn.pixabay.com/photo/2013/07/13/11/43/tux-158547__340.png" alt="Burger">
+                  <h3>Burger</h3>
+                  <p>Photo by Jack Anderson</p>
+                </div>
+                <div class="slider-item">
+                  <img src="https://cdn.pixabay.com/photo/2015/02/02/23/58/sign-621746__340.png" alt="Tent">
+                  <h3>Tent</h3>
+                  <p>Photo by Sarah Davis</p>
+                </div>
+                <div class="slider-item">
+                  <img src="https://cdn.pixabay.com/photo/2016/12/27/13/10/logo-1933884__340.png" alt="Beautiful">
+                  <h3>Beautiful</h3>
+                  <p>Photo by Alex Lee</p>
+                </div>
+                <div class="slider-item">
+                  <img src="https://cdn.pixabay.com/photo/2012/09/18/19/56/recycle-57136__340.jpg" alt="Tie">
+                  <h3>Tie</h3>
+                  <p>Photo by Emily Chen</p>
+                </div>
+             
         </div>
         <div class="slider-controls">
-          <button class=" prev"><img src="https://img.icons8.com/external-kmg-design-glyph-kmg-design/32/null/external-left-arrows-kmg-design-glyph-kmg-design.png"/></button>
-          <button class=" next"><img src="https://img.icons8.com/ios-filled/50/null/long-arrow-right.png"/></button>
+          <button class=" prev slider-control"><img class="img" src="https://img.icons8.com/external-kmg-design-glyph-kmg-design/32/null/external-left-arrows-kmg-design-glyph-kmg-design.png"/></button>
+          <button class=" next slider-control"><img class="img" src="https://img.icons8.com/sf-black/64/null/long-arrow-right.png"/></button>
         </div>
       </div>
-       -->
+      <div class="wrapper">
+       
+        <div class="content">
+          <h1>Page Title</h1>
+          <p>
+            <iframe  id="content" src="home.html" frameborder="0">
+               
+            </iframe>
+          </p>
+        </div>
+        <div class="sidebar">
+            <ul>
+              <li>   <a onclick="document.getElementById('content').src='home.html'" class="a-ref">Home</a></li>
+              <li>    <a onclick="document.getElementById('content').src='sidebar.html'" class="a-ref">About</a></li>
+              <li>    <a onclick="document.getElementById('content').src='table.html'" class="a-ref">Table</a></li>
+              <li>   <a onclick="document.getElementById('content').src='content.html'" class="a-ref">Contact</a></li>
+            </ul>
+          </div>
+      </div>
+      
 
     <script src="index.js"></script>
 </body>
