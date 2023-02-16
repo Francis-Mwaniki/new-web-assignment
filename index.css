@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
-  background-color: #f5f5f5;
+  background-color: #9ad8aa;
   display: block;
   align-items: center;
   justify-content: center;
@@ -146,6 +146,8 @@ border: solid 2px #000;
     display: flex;
     max-width: 960px;
     margin: auto;
+    background-color: aquamarine;
+    padding: 10px;
     margin-bottom: 30px;
   }
   
@@ -180,4 +182,12 @@ border: solid 2px #000;
     text-decoration: none;
     color: #000;
   }
-  
+  .foot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    gap: 20px;
+  }
